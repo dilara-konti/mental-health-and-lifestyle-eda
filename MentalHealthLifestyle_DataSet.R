@@ -103,13 +103,13 @@ Diet_Simplified <- MHL1 %>%
 print (Diet_Simplified)
 #ALSO LITTLE TO NO LINK
 #LASTLY TO CHECK MENTAL HEALTH CONDITION
-Mood_Disorders<- MHL1 %>%
+Mood_Anx_Disorders<- MHL1 %>%
   group_by(`Stress Level`) %>%
   summarize(
-    mood_disorders=mean(`Mental Health Condition` %in% c("Depression","Anxiety"),na.rm=TRUE)*100 #USE OF %IN% TO ONLY CHECK FOR DEPRESSION AND ANXIETY WITHIN THE LARGER SET
+    mood_disorders=mean(`Mental Health Condition` %in% c("Depression","Anxiety","Bipolar"),na.rm=TRUE)*100 #USE OF %IN% TO ONLY CHECK FOR DEPRESSION, BIPOLAR AND ANXIETY WITHIN THE LARGER SET
   ) %>%
   mutate(`Stress Level`=factor(`Stress Level`,levels=c("Low","Moderate","High"))) %>%
   arrange(`Stress Level`)
-print(Mood_Disorders)
+print(Mood_Anx_Disorders)
 #NO STATISTICALLY SIGNIFICANT LINK
 #HIGH PROBABILITY THAT THE DATA IS A SYNTHETIC DATASET
