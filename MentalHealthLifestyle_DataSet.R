@@ -5,8 +5,8 @@
 # ANALYTICAL CONCLUSION:
 # Systematic EDA across various variables (behavioural, lifestyle, clinical
 # domains) failed to reveal a statistically significant link in relation to
-# stress levels. Across all subcategories, probability distributions stayed a
-# uniform number between 30-40%. 
+# stress levels. Across all subcategories (except clinical diagnosis: ~60%), 
+# probability distributions stayed a uniform number between 30-40%. 
 # Deduction: High probability of synthetic/randomly generated data noise.
 # ==============================================================================
 
