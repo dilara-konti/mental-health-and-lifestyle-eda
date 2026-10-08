@@ -1,0 +1,11 @@
+comparison,test,statistic,df,p_value,effect_size,effect_type,p_holm
+Work hours by stress level,Kruskal-Wallis,2.5274409165451335,2,0.28260066424053454,8.427612259236857e-4,epsilon-squared,1
+Sleep hours by stress level,Kruskal-Wallis,0.9263517955285319,2,0.6292819334873998,3.088868941408909e-4,epsilon-squared,1
+Social interaction by stress level,Kruskal-Wallis,1.3278157028988038,2,0.5148354976159794,4.4275281857245876e-4,epsilon-squared,1
+Happiness by stress level,Kruskal-Wallis,0.8388516692739135,2,0.657424181664577,2.7971045991127493e-4,epsilon-squared,1
+Screen time by stress level,Kruskal-Wallis,1.8082650708237038,2,0.40489296311462447,6.02956008944216e-4,epsilon-squared,1
+Exercise level by stress level,Chi-squared,5.259149232613057,4,0.26172546699363675,0.02960616273856131,Cramer's V,1
+Junk-food diet by stress level,Chi-squared,1.3597602015039378,2,0.5066777390036794,0.02128974871860428,Cramer's V,1
+Mood/anxiety diagnosis by stress level,Chi-squared,1.425466878739063,2,0.4903021528901681,0.02179806473626396,Cramer's V,1
+Sanity check: sleep vs happiness,Pearson correlation,0.9522367905432837,2998,0.3410536698350636,0.01738855428954183,r,1
+Sanity check: social interaction vs happiness,Pearson correlation,-2.2048500617784312,2998,0.02754029246087693,-0.040235686908636804,r,0.2754029246087693
