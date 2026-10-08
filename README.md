@@ -43,6 +43,9 @@ A balanced real sample could look similar on the categorical variables, so I des
 
 Created in `figures/`: weekly work hours by stress level, exercise level within each stress level, and the age and sleep distributions.
 
+![Work hours by stress level](figures/work_hours_by_stress.png)
+![Exercise level by stress level](figures/exercise_by_stress.png)
+
 ## Limitations
 
 - Stress level is a three-category self-report, so subtle relationships with continuous variables may be lost.
