@@ -65,9 +65,3 @@ Created in `figures/`: weekly work hours by stress level, exercise level within 
 3. Open the project in RStudio and run `MentalHealthLifestyle_DataSet.R`.
 
 * Requires R 4.x with the `tidyverse` and `here` packages.
-
-2. Grab the dataset **`Mental_Health_Lifestyle_Dataset.csv`** from the [Kaggle](https://www.kaggle.com/datasets/atharvasoundankar/mental-health-and-lifestyle-habits-2019-2024/data) link. Place the file in a folder named **`MHL Dataset`** inside the cloned project directory.
-
-3. All set! 😎
-
-    * Open the project and execute `MentalHealthLifestyle_DataSet.R` without issue. 
